@@ -14,8 +14,3 @@ class convertTemp:
         return convertTemp.count
 
 convert = convertTemp()
-print(f'F to C: {convert.f_to_c(140)}')
-print(f'F to C: {convert.f_to_c(340)}')
-print(f'C to F: {convert.c_to_f(25)}')
-print(f'C to F: {convert.c_to_f(-12)}')
-print(f'count operation {convert.get_count_op()}')
